@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+.container {
+    position: relative;
+    height: 100vh;
+    margin-bottom: 150px;
+    
+}
+nav .navleft {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 10000;
+}
+.navleft a {
+    color: rgb(76, 75, 75);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.navleft a:hover {
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-color: rgb(120, 48, 142);
+    
+}
+.logo img {
+    width: 100px;
+}
+.nav-right a {
+    color: rgb(77, 73, 73);
+    text-decoration: none;
+    background-color: rgb(246, 246, 247);
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 100%;
+
+}
+.pop {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pop img {
+    width: 100%;
+    object-fit: cover;
+}
+
+div .caption {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.images {
+     margin: 100px;
+     
+    }
+.imageweb {
+    position: relative;
+
+}
+.image-1 {
+    position: absolute;
+    width: 600px;
+    top: -200px;
+    left: -50px;
+}
+.image-2 {
+    position: absolute;
+    width: 250px;
+    top: -160px;
+    left: 90px;
+}
+.image-3 {
+    position: absolute;
+    width: 300px;
+    top: 170px;
+    left: 55px;
+    z-index: 1000;
+}
+.pragraph {
+   margin: 8em  0 0 6em;
+   width: 500px;
+   
+}
+.pragraph h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:rgb(76, 75, 75) ;
+}
+.pragraph h1 span {
+    color: rgb(114, 38, 185);
+}
+.pragraph p {
+    font-size: 23px;
+    font-weight: 100;
+    color:rgb(120, 118, 118) ;
+}
+.waves img {
+    position: absolute;
+    width: 100%;
+    bottom: -120px;
+    right: 240px;
+}
+/*****second sec****/
+ .main {
+    position: relative;
+    height: 130vh;
+}
+.main-img {
+    width: 850px;
+    position: absolute;
+    left: 250px;
+
+}
+ .img-cap-1  {
+    position: absolute; 
+    left: 90px;
+    top: 70px;
+    text-align: center;
+
+}
+ .img-cap-1 img ,
+ .img-cap-2 img{
+    width: 170px;
+}
+.img-cap-1 h1 ,
+.img-cap-2 h1 ,
+.img-cap1 h1 ,
+.topic-p h1{
+    margin: 10px 0;
+    color: rgb(88, 88, 88);
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.img-cap-1 p ,
+.img-cap-2 p ,
+.img-cap1 p,
+.topic-p p{
+    color: rgb(116, 116, 116);
+    line-height: 1.5em;
+}
+.img-cap-2 {
+    position: absolute; 
+    left: 500px;
+    top: 200px;
+    text-align: center;
+}
+.img-cap-3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 430px;
+}
+.img-cap2 {
+    position: relative;
+    padding-right:80px ;
+}
+.img-cap2 img {
+    width: 300px;
+}
+.img-cap2 .popo {
+    position: absolute;
+    top: 80px;
+    left: 65px;
+    color: antiquewhite;
+}
+.popo h1 {
+     font-size: 40px;
+    font-weight: 200;
+    margin-top: 5px;
+    
+}
+.img-cap1 {
+    text-align: center;
+}
+.img-cap1 img {
+    width: 200px;
+}
+/*****thirty sec ******/
+
+.topic-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic {
+    margin-bottom: 50px;
+}
+.topic-img .top-2 {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+} 
+.top-2 img {
+  width: 450px;
+}
+.top-1 img ,
+.top-3 img{
+    width: 200px;
+
+}
+.topic-p {
+    text-align: center;
+    margin-top: -50px;
+} 
+footer {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url("images/Group 1131.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.foot-img img {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    width: 600px;
+}
+.play .playgoogle img ,
+.play .playstore img {
+    width: 20px;
+}
+.play .playgoogle p ,
+.play .playstore p {
+    font-size: 13px;
+    margin-left: 5px;
+}
+.play .playgoogle a ,
+.play .playstore a {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+.play .playgoogle {
+    align-items: center;
+    display: flex;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: rgb(247, 246, 244);
+    left: 200px;
+    bottom: 120px;
+    border-radius: 15px;
+}
+.play .playstore {
+    align-items: center;
+    display: flex;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: rgb(247, 246, 244);
+    left: 75px;
+    bottom: 120px;
+    border-radius: 15px;
+}
+.icon {
+    position: absolute;
+    left: 70px;
+    bottom: 75px;
+
+}
+.icon img {
+    width: 20px;
+    margin-left: 10px;
+}
+.icon .icon-1 {
+    width: 13px;
+}
+.footer-link {
+    position: absolute;
+    left: 70px;
+    bottom: 45px;
+}
+.footer-link a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
